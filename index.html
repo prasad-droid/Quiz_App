@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <div class="selection">
+    <div class="dropdown">
+        <button class="dropbtn category">Category</button>
+        <div class="dropdown-content Category">
+          <a href="#" id="c1">General Knowledge</a>
+          <a href="#" id="c2">Science</a>
+          <a href="#" id="c3">Sport & Leisure</a>
+          <a href="#" id="c4">Arts & Literature</a>
+          <a href="#" id="c5">Film & TV </a>
+        </div>
+      </div> 
+
+     <div class="dropdown ">
+            <button class="dropbtn difficulty" >Difficulty</button>
+            <div class="dropdown-content Difficulty">
+              <a href="#" id="d1">Easy</a>
+              <a href="#" id="d2">Medium</a>
+              <a href="#" id="d3">Hard</a>
+            </div>
+          </div> 
+      </div>
+
+
+    <div class="container">
+        <div id="question-contaioner" class="hide">
+            <div  id="Question">Question</div>
+        
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn btn1 answer">Answer 1</button>
+            <button class="btn btn2 answer">Answer 2</button>
+            <button class="btn btn3 answer">Answer 3</button>
+            <button class="btn btn4 answer">Answer 4</button>
+        </div>
+        <div class="correctans"></div>
+    </div>
+        <div class="controls">
+            <button class="start-btn " id="start-btn" value="Start">Start</button>
+            <button class="restart hide" id="restart-btn" value="Restart">Restart</button>
+            <button class="next-btn  hide" id="next-btn">Next</button>
+        </div>
+    </div>
+    
+
+    <script  defer src="script.js"></script>
+</body>
+</html>

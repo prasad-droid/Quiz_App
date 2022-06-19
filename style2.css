@@ -1,0 +1,17 @@
+ @media (max-width:400px) {
+    body{
+    overflow: scroll;
+
+    }
+     .btn{
+         height:fit-content;
+         width: max-content;
+         word-wrap: break-word;
+         
+     }
+     .btn-grid{
+         grid-template-columns: auto;
+         gap: 5px;
+         margin: 10px 0;
+     }
+ }
